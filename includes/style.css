@@ -1,0 +1,29 @@
+body {
+    background: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+}
+
+input[type='text'] {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #4066ED;
+    width: 60px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #444;
+    color: #eeeeee;
+}
+
+input[type='text']:active {
+    outline: none;
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4066ED;
+    padding: 5px;
+    background-color: #4066ED;
+}
